@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Start Title -->
+  <title>KS Project | Pertanyaan</title>
+  <!-- End Title -->
+
+  <!-- Start CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- End CSS -->
+</head>
+
+<body>
+  <!-- Start Logo -->
+  <div class="container logo">
+    <img src="images/logo.jpg" width="300" alt="Logo ks project">
+  </div>
+  <!-- End Logo -->
+
+  <!-- Start Menu Primer -->
+  <div class="container menu-primer">
+    <ul>
+      <li><a href="index.html" title="Beranda">Beranda</a></li>
+      <li><a href="tentang.html" title="Tentang Kami">Tentang Kami</a></li>
+      <li><a href="layanan.html" title="Layanan">Layanan</a></li>
+      <li><a href="artikel.html" title="Artikel">Artikel</a></li>
+      <li><a href="pembayaran.html" title="Cara Pembayaran">Cara Pembayaran</a></li>
+      <li><a href="pertanyaan.html" class="active" title="Pertanyaan">Pertanyaan</a></li>
+      <li><a href="kontak.html" title="Kontak">Kontak</a></li>
+    </ul>
+  </div>
+  <!-- End Menu Primer -->
+
+  <!-- Start Jumbotron -->
+  <div class="container jumbotron">
+    <h1>Cara Pembayaran </h1>
+    <h3>Ini Adalah Cara Pembayaran </h3>
+  </div>
+  <!-- End Jumbotron -->
+
+  <!-- Start Pertanyaan -->
+  <div class="container">
+    <h2>Pertanyaan</h2>
+    <ol>
+      <li><a href="#01" title="Apa itu KS - Project?">Apa itu KS - Project?</a></li>
+      <li><a href="#02" title="Bagaimana cara pembayaran?">Bagaimana cara pembayaran?</a></li>
+    </ol>
+    <hr>
+    <h2>Jawaban</h2>
+    <ol>
+      <li>
+        <h4 id="01">Apa itu KS - Project?</h4>
+        <ul>
+          <li>Silahkan menuju halaman <a href="tentang.html">Tentang Kami</a></li>
+        </ul>
+      </li>
+      <li>
+        <h4 id="02">Bagaimana cara pembayaran?</h4>
+        <ul>
+          <li>Silahkan menuju halaman <a href="pembayaran.html">Cara Pembayaran</a></li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+  <!-- End Pertanyaan -->
+
+  <!-- Start Menu Sekunder -->
+  <div class="container menu-sekunder">
+    <!-- Start Ks Project -->
+    <div class="menu-sekunder-one">
+      <h4>KS - Project</h4>
+      <p>Percayakan Project Pembuatan Aplikasi
+        <br>Berbasis Desktop / Website Anda Pada Kami.</p>
+      <p>Email : <a href="mailto:ks-project@ksmail.com" title="ks-project@ksmail.com">ks-project@ksmail.com</a></p>
+      <p>Whatsapp : <a href="tel:+6282187893504" title="+62 821 8789 3504">+62 821 8789 3504</a></p>
+    </div>
+    <!-- End Ks Project -->
+
+    <!-- Start Menu -->
+    <div class="menu-sekunder-two">
+      <h4>Menu</h4>
+      <ul>
+        <li><a href="index.html" title="Beranda">Beranda</a></li>
+        <li><a href="tentang.html" title="Tentang Kami">Tentang Kami</a></li>
+        <li><a href="layanan.html" title="Layanan">Layanan</a></li>
+        <li><a href="artikel.html" title="Artikel">Artikel</a></li>
+        <li><a href="pembayaran.html" title="Cara Pembayaran">Cara Pembayaran</a></li>
+        <li><a href="pertanyaan.html" title="Pertanyaan">Pertanyaan</a></li>
+        <li><a href="kontak.html" title="Kontak">Kontak</a></li>
+      </ul>
+    </div>
+    <!-- End Menu -->
+
+    <!-- Start Sosial Media -->
+    <div class="menu-sekunder-three">
+      <h4>Media Sosial</h4>
+      <ul>
+        <li>
+          <a href="#" title="Instagram KS Project"><img src="images/instagram.png" alt="Instagram KS Project"></a>
+          Instagram
+        </li>
+        <li>
+          <a href="#" title="Facebook KS Project"><img src="images/facebook.png" alt="Facebook KS Project"></a>
+          Facebook
+        </li>
+        <li>
+          <a href="#" title="Twitter KS Project"><img src="images/twitter.png" alt="Twitter KS Project"></a>
+          Twitter
+        </li>
+      </ul>
+    </div>
+    <!-- End Sosial Media -->
+  </div>
+  <!-- End Menu Sekunder -->
+
+  <!-- Start Copyright -->
+  <div class="container copyright">
+    <p>Copyright &copy; 2019 - KS Project</p>
+  </div>
+  <!-- End Copyright -->
+
+  <!-- WhatsHelp.io widget -->
+  <script type="text/javascript">
+    (function () {
+      var options = {
+        whatsapp: "+62 821-8789-3504", // WhatsApp number
+        call_to_action: "Message us", // Call to action
+        position: "right", // Position may be 'right' or 'left'
+      };
+      var proto = document.location.protocol,
+        host = "whatshelp.io",
+        url = proto + "//static." + host;
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () {
+        WhWidgetSendButton.init(host, proto, options);
+      };
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    })();
+  </script>
+  <!-- /WhatsHelp.io widget -->
+</body>
+
+</html>

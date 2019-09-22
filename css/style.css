@@ -1,0 +1,271 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/* End Font */
+
+/* Start Body */
+body {
+  background-color: #cccccc;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+/* End Body */
+
+/* Start Debug */
+/* End Debug */
+
+/* Start Container */
+.container {
+  margin: 10px auto;
+  overflow: auto;
+  width: 90%;
+}
+
+.container-full {
+  margin: 10px auto;
+  overflow: auto;
+  width: 100%;
+}
+
+/* End Container */
+
+/* Start Logo */
+.logo {
+  text-align: left;
+}
+
+.logo img {
+  width: 20%;
+}
+
+/* End Logo */
+
+/* Start Anchor / Hyperlink */
+a:link,
+a:visited {
+  color: #0366d6;
+}
+
+a:hover,
+a:active {
+  color: #000000;
+}
+
+/* End Anchor / Hyperlink */
+
+/* Start Menu Primer */
+.menu-primer ul {
+  text-align: center;
+  padding: 0;
+  background-color: azure;
+  border-radius: 4px;
+  box-shadow:
+    0 3px -1px rgba(0, 0, 0, .2),
+    0 6px 10px rgba(0, 0, 0, .14),
+    0 1px 18px rgba(0, 0, 0, .12);
+}
+
+.menu-primer li {
+  display: inline-block;
+  margin: 0 -4px;
+}
+
+.menu-primer a {
+  color: #57ddc0;
+  font-size: 13px;
+  font-weight: 500;
+  display: inline-block;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu-primer a:hover {
+  background-color: rgb(203, 205, 218);
+  color: #e65858;
+  font-weight: 600;
+}
+
+.menu-primer .active {
+  background-color: rgb(182, 84, 84);
+  color: rgb(32, 30, 32);
+  font-weight: 600;
+}
+
+/* End Menu Primer */
+
+/* Start Heading */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400px;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 13px;
+}
+
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+  background-color: #f6f8fa;
+  border: 1px solid #eaecef;
+  border-radius: 4px;
+  padding: 20px 0;
+}
+
+.jumbotron h1 {
+  font-size: 32px;
+  padding: 0 20px;
+}
+
+.jumbotron h3 {
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one {
+  float: left;
+  width: 49.5%;
+}
+
+.main-home-two {
+  float: right;
+  width: 49.5%;
+}
+
+.main-home-one .box-konten,
+.main-home-two .box-konten {
+  height: 140px;
+}
+
+/* End Main */
+
+/* Start Box */
+.box-heading {
+  background-color: #f6f8fa;
+  border: 1px solid #d1d5da;
+  border-radius: 3px 3px 0 0;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.box-heading h4 {
+  font-size: 14px;
+  margin: 0;
+}
+
+.box-konten {
+  background-color: #ffffff;
+  border: 1px solid #eaecef;
+  border-top: 3px 3px 0 0;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+/* End Box */
+
+/* Start Testimonial */
+.testimonial {
+  border-left: 4px solid #dfe2e5;
+  margin-left: 30px;
+  padding-left: 20px;
+}
+
+/* End Testimonial */
+
+/* Menu Sekunder */
+.menu-sekunder {
+  background-color: #9eabb6;
+  border-bottom: 1px solid #eaecef;
+  border-top: 1px solid #eaecef;
+  overflow: auto;
+  padding: 10px 0;
+}
+
+.menu-sekunder h4 {
+  font-size: 14px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.menu-sekunder ul {
+  padding: 0;
+}
+
+.menu-sekunder li {
+  list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder li p {
+  font-size: 15px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+  float: left;
+}
+
+.menu-sekunder-one {
+  margin-left: 40px;
+  width: 35%;
+}
+
+.menu-sekunder-two,
+.menu-sekunder-three {
+  width: 30%;
+}
+
+.menu-sekunder-three ul li img {
+  vertical-align: middle;
+  width: 8%;
+}
+
+/* End Sekunder */
+
+/* Start Copyright */
+.copyright {
+  background-color: #9eabb6;
+  text-align: center;
+}
+
+.copyright p {
+  font-size: 15px;
+}
+
+/* End Copyright */
