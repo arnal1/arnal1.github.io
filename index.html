@@ -3,38 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>DC - Cheat | By Arnal</title>
+  <title>Bot Gold</title>
 </head>
 <body>
-  <h1>Simple DC Cheat by Arnal</h1>
+  <h1 class="message">loading...</h1>
 
-  <!-- <button type="button" id="claim_gold">Claim</button> -->
-  <span class="loading"></span>
-
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script>
-$(function(){
-
-  var link = 'http://ultrasptool.com/script/resource/gold.php';
-
-  setTimeout(function(){ 
-    window.open(link);
-    window.location.href = location.href;
-  }, 10000); 
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
 
 
-  // $('#claim_gold').click(function () {
-  //   $.ajax({
-  //     url: 'http://ultrasptool.com/script/resource/gold.php',
-  //     method: 'get',
-  //     dataType: 'json',
-  //     success: function(data){
-  //       console.log(data);
-  //     }
-  //   }); 
-  // });
-});
-</script>
+      setTimeout(function(){
+        var wind = window.open('https://ultrasptool.com/script/resource/gold.php','_blank');
+        setTimeout(function(){
+          wind.close();
+          window.location.reload();
+        }, 10000);
+      }, 10000);
+      
+
+      // let link = "https://ultrasptool.com/script/resource/gold.php";
+      // $.ajax({
+      //   url : link,
+      //   method: 'get',
+      //   dataType: 'json',
+      //   success : function(){
+      //     $('h1.message').html('success'); 
+      //     setTimeout(function(){ 
+      //       window.location.reload();
+      //     }, 10000);
+      //   }
+      // });
+
+    });
+  </script>
 </body>
 </html>
